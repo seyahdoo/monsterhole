@@ -1303,6 +1303,7 @@ MonoBehaviour:
   handTriggerStay: 0.1
   meepleHolder: {fileID: 4275671575290474}
   carriedMeeple: {fileID: 0}
+  working: 0
 --- !u!136 &136468805457320548
 CapsuleCollider:
   m_ObjectHideFlags: 1

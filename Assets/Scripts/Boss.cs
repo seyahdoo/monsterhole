@@ -48,7 +48,7 @@ public class Boss : MonoBehaviour
 		RaycastHit hit;
 		Ray ray = cam.ScreenPointToRay(Input.mousePosition);
         
-		if (Physics.Raycast(ray, out hit, mask)) {
+		if (Physics.Raycast(ray, out hit, 100f, mask)) {
 
 			Vector3 v = hit.point;
 			v.y = transform.position.y;
